@@ -92,7 +92,7 @@ const CartDetails = ({ setPage, cart, setCart }) => {
               <Avatar alt="Remy Sharp" src={cartItem.imageUrl} />
             </ListItemAvatar>
             <ListItemText
-              primary={`${cartItem.title} - ${'$100'}`}
+              primary={cartItem.title}
               secondary={
                 <Fragment>
                   {cartItem.description}
